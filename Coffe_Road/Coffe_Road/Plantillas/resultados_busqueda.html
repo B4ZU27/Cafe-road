@@ -1,0 +1,15 @@
+<html>
+
+<body>
+
+<p>Estas buscando: <strong> {{query}}</strong></p>
+
+{% if Integrante %}
+    <p>Integrante encontrado: {{Integrante.nombre}} &nbsp; {{Integrante.codigo}} &nbsp; {{Integrante.carrera}}</p> 
+{% else %} 
+    <p>No hay nadie con ese codigo</p> 
+{% endif %} 
+
+</body>
+
+</html>

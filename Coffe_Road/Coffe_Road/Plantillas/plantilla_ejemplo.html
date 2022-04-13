@@ -1,0 +1,19 @@
+<html>
+    <body>
+
+        
+    <h1>
+    ESTA ES UNA PLANTILLA
+    </h1>
+    {% include "barra.html" %}
+    <p>Mi nombre es: {{nombre}}</p>
+    <p><strong>Temas</strong></p>
+    <p>
+        <ul>
+        {% for i in temas%}
+        <li>{{i}} </li>
+        {% endfor %}
+        </ul>
+        </p>
+    </body>
+    </html>
