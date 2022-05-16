@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a h1{
+  border-style: inset;
+  color: black;
+  font-family: arial;
+  font-size: 17px;
+  background-color: white;
+}
+
+a h2{
+  border-style: inset;
+  color: black;
+  font-family: arial;
+  font-size: 17px;
+  background-color: white;
+}
+a h3{
+  border-style: inset;
+  color: black;
+  font-family: arial;
+  font-size: 17px;
+  background-color: white;
+}
+/* Tabla*/
+a21{
+  border-style: inset;
+  color: black;
+  font-family: arial;
+  font-size: 17px;
+  background-color: white;
+}
+a01{
+  font-family: arial;
+}
+a22{
+  border-style: inset;
+  color: black;
+  font-family: arial;
+  font-size: 17px;
+  background-color: white;
+}
+a23{
+  border-style: inset;
+  color: black;
+  font-family: arial;
+  font-size: 17px;
+  background-color: white;
+}
+form button {
+  font-family: arial;
+  margin-right: 25px;
+}
+a02{
+  font-size: 18px;
+}
+/* Tabla*/
+.agregar-boton{
+  color: black;
+  font-size: 20px;
+}
+button a2{
+  color: black;
+  font-size: 20px;
+}
+button a3{
+  color: black;
+  font-size: 20px;
+}
+button .Agregar_Pro{
+  color: black;
+  font-size: 20px;
+
+}
+/*Formulario*/
+a0{
+  border-style: inset;
+  color: black;
+  font-family: arial;
+  font-size: 17px;
+  background-color: white;
+}
+a6{
+  border-style: inset;
+  color: black;
+  font-family: arial;
+  font-size: 17px;
+  background-color: white;
+}
+a7{
+  border-style: inset;
+  color: black;
+  font-family: arial;
+  font-size: 17px;
+  background-color: white;
+}
+a8{
+  font-family: arial;
+}
+fieldset {
+  background-color: #c6c6c6;
+  margin-top: 25px;
+  margin-left: 100px;
+  border-color: black;
+  font-family: arial;
+  font-size: 18px;
+}
+.contenedor-agregar-formulario h2{
+  font-family: arial;
+  margin-left: 220px;
+}
+body {
+    background-image: url("asfalto.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+     lor: ;
+    border-style: solid;
+    font-family: arial;
+}
+.contenedor{
+  background-color: gray;
+}
+
+
+.conenedor {
+    height: 100%;
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    background-color: #aaaaaa!important;
+    padding: 15px;
+    height: 45px;
+}
+
+.contenedor-titulo h1{
+  border-color: black;
+    border-style:solid;
+    flex: 1;
+    font-family: arial;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+}
+
+.lista-menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.lista-menu>li {
+    margin: 10px 15px;
+}
+
+.contenido {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 105px);
+}
+
+.texto {
+    width: 60%;
+    display:grid;
+    margin-top:-300px;
+    margin-right: 700px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.texto p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.formulario {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    padding: 15px 0;
+    width: 100%;
+}
+
+.cont_borradores {
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    border: 3px red solid;
+    overflow: hidden;
+}
+
+.borrador_izq {
+    float: left;
+    width: 35%;
+    height: 40px;
+    border: 3px green solid;
+    background-color: gray;
+}
+
+.borrador_der {
+    float: left;
+    width: 35%;
+    height: 40px;
+    border: 3px green solid;
+    background-color: gray;
+}
+
+.formulario form label {
+    text-align: center;
+    width: 100%;
+}
+
+.formulario div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario div:after {
+    background-color: red;
+
+}
+
+.formulario div input[type='submit'] {
+    margin-top: 15px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    background-color: white;
+
+}
+.contenedor-lista{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: arial;
+}
+.contenedor-lista div:first-child{
+    display: flex;
+}
+.contenedor-lista div:first-child h2{
+    flex: 1;
+}
+.contenedor-lista div:first-child .agregar-boton{
+    padding: 18px 12px;
+    margin-bottom: 15px;
+    border: thin solid black;
+
+}
+#lista-de-productos {
+    width: 100%;
+}
+tr > td{
+    margin-left: 15px;
+}
+.contenedor-agregar-formulario{
+    width: 100%;
+}
+.contenedor-agregar-formulario form{
+    width: 60%;
+}
+.contenedor-agregar-formulario fieldset{
+    padding: 15px;
+}
+.contenedor-campo{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor-campo:not(:last-child){
+    margin-bottom: 15px;
+}
+.contenedor-campo input{
+    width: 80%;
+}
+.campo-boton-enviar input{
+    width: 100px;
+}
